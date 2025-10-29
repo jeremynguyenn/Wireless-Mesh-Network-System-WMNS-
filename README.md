@@ -27,3 +27,12 @@ Currently, the following data is collected by the system through multiple sensor
 * VOC concentration (BME680)
 * Battery levels (ADC)
 * Signal strength (radio)
+
+## Custom Hardware Devices
+GPSN             |  LRSN      |  CO2SN  | ALSN
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/gpsn.png" alt="GPSN" width="150"/><br />General-purpose configurable sensor for: temperature, humidity, air pressure, light, VOCs, motion|<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/lrsn.png" alt="LRSN" width="200"/><br />Person counter sensor |  <img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/co2sn.png" alt="CO2SN" width="200"/><br />Carbon dioxide concentration sensor | <img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/alsn.png" alt="ALSN" width="200"/><br />Specialized light sensor for visible, UV, IR
+
+GATEWAY             |  ROUTER32PA      |  ROUTER40  | LTSN | TERMINAL
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/gateway.png" alt="GATEWAY" width="250"/><br />Internet gateway node  |<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/router32pa.png" alt="ROUTER32PA" width="150"/><br />Power amplified router node |  <img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/router40.png" alt="ROUTER40" width="150"/><br />USB-powered router node |<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/ltsn.png" alt="LTSN" width="150"/><br />Specialized temp sensor for sub-zero|<img src="https://github.com/jeremynguyenn/Wireless-Mesh-Network-System/blob/main/WMNS/Documentation/terminal.png" alt="TERMINAL" width="150"/><br />Security node and gateway redundancy.
